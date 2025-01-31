@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.status==\"In Progress\"",
+ "creation": "2025-01-28 11:46:07.576923",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tickets",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Your status is Over Due</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-01-30 12:14:20.213687",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "sla",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "condition": "doc.status==\"In Progress\"",
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "support staff"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{doc.status}} Delivered",
+ "value_changed": "status"
+}

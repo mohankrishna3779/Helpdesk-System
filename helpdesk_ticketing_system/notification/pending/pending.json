@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.status==\"Resolved\"",
+ "creation": "2025-01-30 14:36:50.245564",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tickets",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>The Ticket as be Over due</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-01-30 14:41:00.290887",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "Pending",
+ "owner": "Administrator",
+ "property_value": "Resolved",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Customer"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "status",
+ "subject": "{{doc.name}} Delivered"
+}

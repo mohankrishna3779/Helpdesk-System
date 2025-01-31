@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2025-01-20 16:52:41.056855",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sla_section",
+  "sla_id",
+  "sla_name",
+  "responce_time",
+  "resolution_time",
+  "escalation_rule",
+  "sla_deadlines"
+ ],
+ "fields": [
+  {
+   "fieldname": "sla_section",
+   "fieldtype": "Section Break",
+   "label": "SLA"
+  },
+  {
+   "fieldname": "sla_id",
+   "fieldtype": "Autocomplete",
+   "label": "SLA Id"
+  },
+  {
+   "fieldname": "sla_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "SLA Name",
+   "options": "\nHigh Priority SLA\nStandard Support SLA\nPremium Customer SLA\nCritical Downtime SLA"
+  },
+  {
+   "fieldname": "resolution_time",
+   "fieldtype": "Time",
+   "label": "Resolution Time "
+  },
+  {
+   "fieldname": "escalation_rule",
+   "fieldtype": "Text",
+   "label": "Escalation Rule"
+  },
+  {
+   "fieldname": "responce_time",
+   "fieldtype": "Time",
+   "label": "Responce Time"
+  },
+  {
+   "fieldname": "sla_deadlines",
+   "fieldtype": "Datetime",
+   "label": "SLA deadlines."
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-31 12:29:17.255930",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "Service Level Agreement",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

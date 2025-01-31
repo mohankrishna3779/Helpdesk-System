@@ -1,0 +1,181 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field ticket_id",
+ "creation": "2025-01-20 15:40:53.135765",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ticket_booking_section",
+  "ticket_id",
+  "subject",
+  "description",
+  "customer",
+  "customer_id",
+  "customer_name",
+  "customer_type",
+  "email_address",
+  "contact_number",
+  "address",
+  "priority",
+  "category",
+  "progress",
+  "status",
+  "creation_date",
+  "resolved_date",
+  "sla",
+  "assigned_to",
+  "times",
+  "sla_breach",
+  "over_due"
+ ],
+ "fields": [
+  {
+   "fieldname": "ticket_booking_section",
+   "fieldtype": "Section Break",
+   "label": "Ticket Booking"
+  },
+  {
+   "fieldname": "ticket_id",
+   "fieldtype": "Autocomplete",
+   "label": "Ticket Id"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority ",
+   "options": "\nLow\nMedium\nHigh"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer ",
+   "options": "Customer Details"
+  },
+  {
+   "fieldname": "creation_date",
+   "fieldtype": "Date",
+   "label": "Creation Date "
+  },
+  {
+   "fieldname": "resolved_date",
+   "fieldtype": "Date",
+   "label": "Resolved Date"
+  },
+  {
+   "fieldname": "sla",
+   "fieldtype": "Link",
+   "label": "SLA",
+   "options": "Service Level Agreement"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To ",
+   "options": "User"
+  },
+  {
+   "fieldname": "times",
+   "fieldtype": "Time",
+   "label": "Resolution Time "
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customer_type",
+   "fieldtype": "Data",
+   "label": "Customer Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Data",
+   "label": "Customer Id",
+   "read_only": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category "
+  },
+  {
+   "fieldname": "progress",
+   "fieldtype": "Percent",
+   "label": "Progress"
+  },
+  {
+   "fieldname": "sla_breach",
+   "fieldtype": "Select",
+   "label": "Sla Breach",
+   "options": "\n0\n1"
+  },
+  {
+   "fieldname": "over_due",
+   "fieldtype": "Data",
+   "label": "Over Due"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-30 16:14:29.826333",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "Tickets",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

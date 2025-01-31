@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2025-01-31 11:11:29.047253",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tickets",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Add your message here",
+ "message_type": "Markdown",
+ "modified": "2025-01-31 11:11:29.047253",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "Email updates",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "assigned_to",
+   "receiver_by_role": "Customer"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Mohan Krishna",
+ "sender_email": "mohankrishna3779@gmail.com",
+ "subject": "{{ doc.name }} Email",
+ "value_changed": "status"
+}

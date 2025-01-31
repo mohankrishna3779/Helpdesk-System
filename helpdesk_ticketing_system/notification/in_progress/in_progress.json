@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.status==\"In Progress\"",
+ "creation": "2025-01-30 12:27:45.352501",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tickets",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Your Ticket is In Progress</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-01-30 12:52:16.629037",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "In Progress",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "condition": "doc.status==\"In Progress\"",
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Customer"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{doc.name}} Delivered"
+}

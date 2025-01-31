@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.resolved_date==nowdate()",
+ "creation": "2025-01-31 11:03:02.981968",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tickets",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>The Ticket is Over Due</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-01-31 11:03:02.981968",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "SLA Notifications",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "condition": "doc.resolved_date==nowdate()",
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Customer"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{doc.duedate}} Delivered ",
+ "value_changed": "resolved_date"
+}

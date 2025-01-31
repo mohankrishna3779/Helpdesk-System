@@ -1,0 +1,32 @@
+{
+ "chart_name": "Tickets nearing SLA deadlines",
+ "chart_type": "Report",
+ "creation": "2025-01-22 16:06:09.801928",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2025-01-22 16:06:09.801928",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "Tickets nearing SLA deadlines",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Ticket",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "times",
+ "y_axis": [
+  {
+   "y_field": "average_times_in_hours"
+  }
+ ]
+}

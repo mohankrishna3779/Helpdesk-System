@@ -1,0 +1,33 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status=='Resloved'",
+ "creation": "2025-01-28 14:40:11.627655",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tickets",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "    When a ticket is created, they may receive a confirmation email.\n    When a ticket is in progress, they may get an update that their issue is being worked on.\n    When a ticket is closed, they may be informed that their issue has been resolved.\n",
+ "message_type": "Markdown",
+ "modified": "2025-01-28 14:42:12.470806",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "Ticket Status",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "assigned_to"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Mohan Krishna",
+ "sender_email": "mohankrishna3779@gmail.com",
+ "set_property_after_alert": "status",
+ "subject": "{{doc.name}} Delivered",
+ "value_changed": "status"
+}

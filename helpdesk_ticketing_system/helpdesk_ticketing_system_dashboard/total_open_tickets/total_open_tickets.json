@@ -1,0 +1,29 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Open Tickets",
+   "width": "Half"
+  },
+  {
+   "chart": "Tickets resolved",
+   "width": "Half"
+  },
+  {
+   "chart": "Tickets nearing SLA deadlines",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-01-22 15:05:08.190385",
+ "dashboard_name": "Total open tickets",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-01-22 16:06:13.004811",
+ "modified_by": "Administrator",
+ "module": "Helpdesk Ticketing System",
+ "name": "Total open tickets",
+ "owner": "Administrator"
+}

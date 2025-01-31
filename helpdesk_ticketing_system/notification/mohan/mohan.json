@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.status==\"Resloved\"",
+ "creation": "2025-01-24 14:38:59.137355",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tickets",
+ "enabled": 1,
+ "event": "Submit",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Add your message here",
+ "message_type": "Markdown",
+ "modified": "2025-01-24 14:38:59.137355",
+ "modified_by": "mohankrishnaputtur@gmail.com",
+ "module": "Helpdesk Ticketing System",
+ "name": "Mohan",
+ "owner": "mohankrishnaputtur@gmail.com",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Desk User"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{ doc.name}} Delivered"
+}
